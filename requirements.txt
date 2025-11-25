@@ -1,0 +1,17 @@
+# --- scraping y utilidades ---
+requests>=2.32
+beautifulsoup4>=4.12
+lxml>=5.2
+readability-lxml>=0.8.4          # proporciona from readability import Document :contentReference[oaicite:0]{index=0}
+pdfminer.six>=20221105
+PyPDF2>=3.0
+cssselect>=1.2                   # dependencia indirecta de readability-lxml
+
+# --- IA / DeepSeek ---
+openai>=1.22                     # se usa también para deepseek-chat
+python-dotenv>=1.0
+
+# --- Google Gmail API ---
+google-auth>=2.29
+google-auth-oauthlib>=1.2
+google-api-python-client>=2.133  # recomendado por la propia guía de Gmail API :contentReference[oaicite:1]{index=1}
