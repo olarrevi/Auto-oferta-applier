@@ -78,5 +78,4 @@ python scripts/c_evaluador.py
 -   `credentials.json` / `token.json`: Archivos de autenticación de la API de Google.
 
 ## Licencia
-
-
+MIT License
